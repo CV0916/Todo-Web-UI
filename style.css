@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:borer-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    line-height:2;
+}
+
+.first-line{
+    background-color: #FFFFFF;
+    width:100%;
+    border-bottom:1px solid lightgray;
+    box-shadow:1px 1px 2px 1px lightgray;
+    padding-left:180px;
+
+
+}
+
+#Tasks{
+    font-size:28px;
+    font-weight:bold;
+    
+}
+#Lists{
+    font-size:28px;
+    color: #00A5EC;
+    font-weight:bold;
+}
+
+.second-line{
+    margin-top:10px;
+    margin-left:885px;
+    position:relative;
+    
+}
+.circle{
+    display:inline-block;
+}
+.Addlists{
+    font-size:20px;
+    display:inline-block;
+    position:absolute;
+    margin-bottom:10px;
+    margin-left:10px;
+}
+
+.flex{
+   
+    margin-left:180px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap:wrap;
+    align-content:space-between;
+
+   
+
+}
+.div{
+    border:0px solid grey;
+    border-radius:5px;
+    box-shadow: 1px 1px 0px lightgray , -1px -1px 0px lightgray;
+    text-align:center;
+    flex-basis: 25% ;
+    height:200px;
+    margin:10px;
+    text-align:left;
+
+   
+    
+
+}
+
+.heading1{
+    color:#00A5EC;
+    text-align:left;
+    padding:10px
+    
+}
+
+.heading2{
+    
+    font-size:12px;
+    text-decoration:line-through;
+    color:#c2c2c2;
+    margin-left:10px;
+}
+
+.heading3{
+    font-size:12px;
+    color:#424242;
+    margin-left:10px;
+}
+
+#check{
+    margin-left:15px;
+    margin-top:15px;
+    width:18px;
+    height:18px;
+    accent-color:#c2c2c2;
+   
+}
+
+#check1{
+    margin-left:15px;
+    margin-top:15px;
+    width:18px;
+    height:18px;
+    accent-color:#EDEDED;
+
+}
+#next{
+    position:absolute;
+    margin-left:620px;
+}
+
+#next a{
+text-decoration: none;
+color:black;
+}
+
+/***************************second page**********************************/
+
+.blur{
+    filter:blur(2px);
+    -webkit-filter:blur(2px);
+}
+
+.pop-up{
+    position:absolute;
+    left:35%;
+    top:35%;
+    height: 180px;
+    width:300px;
+    border: 0.5px solid;
+    border-radius:5px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px lightgray,-1px -1px 1px lightgrey;
+}
+
+.part1{
+    margin-left:10px;
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+    width:50%;
+}
+
+#text{
+    width:85%;
+    height:25px;
+    margin-top:20px;
+    margin-left:15px;
+}
+
+.popup-button{
+    background-color:  #00A5EC;
+    width:120px;
+    height:30px;
+    margin-top:20px;
+    margin-left:155px;
+    color:#FFFFFF;
+    border:none;
+    border-radius:3px;
+    
+
+}
+.fa-plus{
+    margin-right:5px;
+}
+.fa-close{
+    font-size:35px;
+    position:absolute;
+    margin-left:110px;
+    margin-bottom:10px;
+    
+
+}
+/*********************THIRD PAGE****************/
+.container1{
+    line-height:2;
+}
+
+.description1{
+    background-color: #FFFFFF;
+    width:100%;
+    border-bottom:1px solid lightgray;
+    box-shadow:1px 1px 2px 1px lightgray;
+    padding-left:250px;
+
+}
+.card{
+    width:300px;
+    height:250px;
+    border:0px solid ;
+    border-radius:5px;
+    margin:auto;
+    box-shadow:1px 1px 1px lightgray,-1px -1px 1px lightgray;
+    margin-top:100px;
+
+}
+#check2{
+    margin-left:15px;
+    margin-top:15px;
+    width:18px;
+    height:18px;
+    accent-color:#c2c2c2;
+}
+#check3{
+    margin-left:15px;
+    margin-top:15px;
+    width:18px;
+    height:18px;
+    accent-color:#EDEDED;
+}
+.title{
+    text-align:center;
+    color: #00A5EC;
+    padding:10px;
+}
+.inner-container{
+    width:100%;
+    height:10%;
+    background-color: yellow;
+    position:relative;
+    margin-top:20px;
+
+}
+ .pack1{
+    position:absolute;
+    width:15%;
+    height:10%;
+    top:0px;
+    left:183px;
+    margin-left:300px;
+   
+}
+.pack2{
+    position:absolute;
+    width:30%;
+    height:10%;
+    top:0px;
+    right:0px;
+    margin-right:242px;
+}
+.shape-arrow{
+    display:inline-block;
+}
+.word1{
+    display:inline-block;
+    font-size:15px;
+    position:absolute;
+    margin-left:10px;
+   
+}
+.shape-circle{
+    display:inline-block;
+}
+.word2{
+    display:inline-block;
+    font-size:15px;
+    position:absolute;
+    margin-left:10px;
+    
+}
+
+/*********************FOURTH PAGE*******************/
+
+
+
+
+
+
